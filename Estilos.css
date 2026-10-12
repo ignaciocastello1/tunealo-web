@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background-color: #FFF6E6;
+    color: #3B2414;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Fredoka', sans-serif;
+    color: #E8740C;
+}
+
+nav ul {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    border-bottom: 2px solid #F6D9AE;
+}
+
+.logo {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #E8740C;
+    text-decoration: none;
+}
+
+nav a {
+    color: #3B2414;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #E8740C;
+}
+
+.portada {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 72px 24px;
+}
+
+.portada h1 {
+    font-size: 48px;
+    line-height: 1.1;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 999px;
+    background-color: #B8500A;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #8F3E07;
+}
+
+.producto {
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 16px;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.catalogo {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 48px 24px;
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 24px;
+}
+
+.producto h3 {
+    font-size: 20px;
+    margin: 12px 0 4px;
+}
+
+.precio {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 16px;
+}
+
+.producto .btn {
+    display: block;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1 {
+    color: #E8740C;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0 0 24px;
+}
