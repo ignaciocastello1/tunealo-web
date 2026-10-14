@@ -205,6 +205,31 @@ footer p {
     font-weight: bold;
 }
 
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.filtro {
+  padding: 10px 20px;
+  border: 2px solid #F0C995;
+  border-radius: 999px;
+  background-color: #FFF6E6;
+  color: #3B2414;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.filtro.activo {
+  background-color: #B8500A;
+  border-color: #B8500A;
+  color: #FFFFFF;
+}
+
 @media (max-width: 600px) {
     .portada h1 {
         font-size: 34px;

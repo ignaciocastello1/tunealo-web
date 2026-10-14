@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Nunito+Sans:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -32,21 +33,27 @@
     </section>
     <section id="catalogo" class="catalogo">
         <h2>Catálogo</h2>
-
+        <div class="filtros">
+            <button class="filtro activo" data-filtro="todo">Todo</button>
+            <button class="filtro" data-filtro="tazas">Tazas</button>
+            <button class="filtro" data-filtro="caramañolas">Caramañolas</button>
+            <button class="filtro" data-filtro="jarras">Jarras</button>
+            <button class="filtro" data-filtro="imanes">Imanes</button>
+        </div>
         <div class="grilla">
-            <article class="producto">
+            <article class="producto" data-categoria="tazas">
                 <img src="https://placehold.co/400x400" alt="Taza con frase de tía intensa">
                 <h3>Taza "frase de tía intensa"</h3>
                 <a href="https://ig.me/m/tunealo.uy" class="btn">Pedir por Instagram</a>
             </article>
 
-            <article class="producto">
+            <article class="producto" data-categoria="tazas">
                 <img src="https://placehold.co/400x400" alt="Taza con foto personalizada">
                 <h3>Taza con tu foto</h3>
                 <a href="https://ig.me/m/tunealo.uy" class="btn">Pedir por Instagram</a>
             </article>
 
-            <article class="producto">
+            <article class="producto" data-categoria="imanes">
                 <img src="https://placehold.co/400x400" alt="Pack de imanes con fotos">
                 <h3>Pack de imanes con fotos</h3>
                 <a href="https://ig.me/m/tunealo.uy" class="btn">Pedir por Instagram</a>
