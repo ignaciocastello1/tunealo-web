@@ -204,3 +204,14 @@ footer p {
     color: #FFF6E6;
     font-weight: bold;
 }
+
+@media (max-width: 600px) {
+    .portada h1 {
+        font-size: 34px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
