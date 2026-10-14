@@ -93,7 +93,7 @@ nav a:hover {
 
 .producto h3 {
     font-size: 20px;
-    margin: 12px 0 4px;
+    margin: 12px 0 16px;
 }
 
 .precio {
@@ -120,4 +120,46 @@ h1 {
 h2 {
     font-size: 36px;
     margin: 0 0 24px;
+}
+
+.como-pido {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 48px 24px;
+}
+
+.pasos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+}
+
+.paso {
+    background-color: #FFFFFF;
+    border: 2px solid #F6D9AE;
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.numero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #E8740C;
+    color: #3B2414;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.paso h3 {
+    margin: 0 0 8px;
+}
+
+.paso p {
+    margin: 0;
 }
